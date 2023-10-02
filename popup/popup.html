@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Hello world</title>
+    <title>Random New Tab</title>
     <link rel="stylesheet" href="popup.css" />
   </head>
   <body>
     <h2 id="greet">Redirection To</h2>
     <div class="content">
+      <ul id="url-list"></ul>
       <input autofocus type="text" id="url-input" />
-      <button id="save-btn">Save</button>
+      <button id="save-btn" disabled>Save</button>
     </div>
     <script src="popup.js"></script>
   </body>

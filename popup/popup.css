@@ -1,0 +1,23 @@
+body {
+  width: 15rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.content input {
+  height: 1.5rem;
+}
+
+#submit-btn {
+  width: 5rem;
+  align-self: center;
+  background-color: cadetblue;
+}
+
+#submit-btn :disabled {
+  background-color: lightgray;
+}
